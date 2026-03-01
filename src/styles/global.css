@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+  min-height: 100dvh;
+}
+
+body {
+  background-color: #f5f6f8;
+  min-height: 100vh;
+  min-height: 100dvh;
+}
+
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  min-height: 100vh;
+  min-height: 100dvh;
+  padding: 16px 16px 24px;
+}
+
+@media (min-width: 480px) {
+  .app-container {
+    padding: 24px 24px 32px;
+  }
+}
+
+@media (min-width: 768px) {
+  .app-container {
+    padding: 40px 24px 48px;
+  }
+}
