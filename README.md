@@ -139,8 +139,7 @@ Payment_Gateway/
 │   ├── components/
 │   │   ├── CheckoutCard.jsx  # Form state, validation, API, success/failure UI
 │   │   ├── PaymentSection.jsx # Card form fields (controlled)
-│   │   ├── SuccessScreen.jsx  # Success message + Back to Checkout
-│   │   └── InputField.jsx    # (if used elsewhere)
+│   │   └── SuccessScreen.jsx  # Success message + Back to Checkout
 │   ├── styles/
 │   │   ├── global.css
 │   │   └── checkout.css

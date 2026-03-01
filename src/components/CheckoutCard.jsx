@@ -2,7 +2,7 @@ import PaymentSection from "./PaymentSection";
 import SuccessScreen from "./SuccessScreen";
 import chevronIcon from "../assets/Button.svg";
 import { useMemo, useRef, useState } from "react";
-import { ORDER_AMOUNT, PAYMENT_API_URL } from "../constants";
+import { ORDER_AMOUNT, PAYMENT_API_URL } from "../constants.js";
 
 function onlyDigits(s) {
   return (s || "").replace(/\D/g, "");

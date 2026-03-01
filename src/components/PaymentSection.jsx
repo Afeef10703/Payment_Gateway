@@ -1,9 +1,9 @@
 import lock from "../assets/lock.svg";
-import icon1 from "../assets/icon1.svg";
-import icon2 from "../assets/icon2.svg";
-import icon3 from "../assets/icon3.svg";
-import icon4 from "../assets/icon4.svg";
-import icon5 from "../assets/icon5.svg";
+import icon1 from "../assets/Icon1.svg";
+import icon2 from "../assets/Icon2.svg";
+import icon3 from "../assets/Icon3.svg";
+import icon4 from "../assets/Icon4.svg";
+import icon5 from "../assets/Icon5.svg";
 
 function PaymentSection({
     values,
